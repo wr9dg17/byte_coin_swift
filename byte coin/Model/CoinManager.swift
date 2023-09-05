@@ -40,9 +40,6 @@ struct CoinManager {
     }
   }
   
-  func performRequest(with urlString: String) {
-  }
-  
   func parseJSON(_ data: Data) -> Double? {
     let decoder = JSONDecoder()
     do {
